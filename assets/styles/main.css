@@ -149,3 +149,13 @@ a{
         transition: 1s;
     }
   }
+  @media (max-width: 300px) {
+    .terminal{
+        transform: translate(-50%, -50%);
+        width: max-content;
+        transition: 1s;
+    }
+  }
+.top-icon {
+    padding: -2px;
+}
